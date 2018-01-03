@@ -1,7 +1,7 @@
 require './lib/toros/version'
 
 Gem::Specification.new do |s|
-  s.name                     = 'Toros'
+  s.name                     = 'toros'
   s.version                  = Toros::VERSION
   s.required_ruby_version    = '>=2.2.6'
   s.date                     = Time.now.strftime('%Y-%m-%d')
