@@ -1,8 +1,8 @@
-require './lib/cowboy/version'
+require './lib/toros/version'
 
 Gem::Specification.new do |s|
-  s.name                     = 'cowboy'
-  s.version                  = Cowboy::VERSION
+  s.name                     = 'Toros'
+  s.version                  = Toros::VERSION
   s.required_ruby_version    = '>=2.2.6'
   s.date                     = Time.now.strftime('%Y-%m-%d')
   s.summary                  = 'Third Party Qiniu SDK'
@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths            = ['lib']
   s.files                    = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(spec|.resources)/}) } \
     - %w(README.md CODE_OF_CONDUCT.md CONTRIBUTING.md Gemfile Rakefile midori.gemspec .gitignore .rspec .codeclimate.yml .rubocop.yml .travis.yml logo.png Rakefile Gemfile)
-  s.homepage                 = 'https://github.com/dsh0416/cowboy'
-  s.metadata                 = { 'issue_tracker' => 'https://github.com/dsh0416/cowboy/issues' }
+  s.homepage                 = 'https://github.com/dsh0416/toros'
+  s.metadata                 = { 'issue_tracker' => 'https://github.com/dsh0416/toros/issues' }
   s.license                  = 'MIT'
 end
