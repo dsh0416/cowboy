@@ -1,0 +1,3 @@
+module Toros::Const
+
+end
